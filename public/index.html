@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>canvas绘制迷宫</title>
+</head>
+<style>
+  canvas {
+    border: 1px #000 dashed;
+  }
+</style>
+
+<body>
+  <canvas id="canvas1" width="500" height="300">
+
+  </canvas>
+  <img src="./images/face.png" alt="" width="15" id="face" style="display:none">
+  <button onclick = "getTips()">提示答案</button>
+  <button onclick = "reset()">重来</button>  
+</body>
+<script src="./js/modernizr-custom.js"></script>
+<script src="./js/canvas.js"></script>
+
+</html>
